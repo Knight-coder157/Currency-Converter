@@ -1,0 +1,65 @@
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+	background: linear-gradient(to right bottom, #12a86f, #5d5eb3);
+	color: #5f84eb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.container{
+	width: 700px;
+}
+h1{
+	font-size: 60px;
+	text-align: center;
+}
+.row{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.col{
+	width: 48%;
+}
+select,
+input{
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 18.5px;
+	padding:8px 15px;
+	font-weight: 700
+}
+input{
+	width: 100%;
+	padding: 10px 15px;
+}
+.reversible-symbol {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+button{
+	width: 200px;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	margin:0 auto;
+	font-size: 22px;
+	border-radius: 15px;
+	background-color: #000fe6;
+	color: #fff;
+	border:0;
+	cursor: pointer;
+}
+
